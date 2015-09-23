@@ -10,17 +10,19 @@ Calc::Calc()
 	std::cout << "Calc created\n";
 }
 
-void Calc::Add(int a, int b)
+float Calc::Add(float a, float b)
 {
 	result = a + b;
+	return result;
 }
 
-void Calc::Sub(int a, int b)
+float Calc::Sub(float a, float b)
 {
 	result = a - b;
+	return result;
 }
 
-void Calc::div(int a, int b)
+float Calc::div(float a, float b)
 {
 	if (b == 0)
 	{
@@ -31,12 +33,13 @@ void Calc::div(int a, int b)
 	{
 		result = a / b;
 	}
-	
+	return result;
 }
 
-void Calc::Mult(int a, int b)
+float Calc::Mult(float a, float b)
 {
 	result = a*b;
+	return result;
 }
 
 void Calc::print() const
@@ -56,7 +59,7 @@ Calc::~Calc()
 }
 int main()
 {	
-	int a, b;
+	float a, b;
 	std::string action;
 	Calc myCalc;
 	std::cout << "Print first value ";

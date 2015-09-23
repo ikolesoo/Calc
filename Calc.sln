@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calc", "Calc\Calc.vcxproj", "{40EC9108-9484-4CE2-A7ED-2AE784E054D0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GTests", "GTests\GTests.vcxproj", "{4B84580B-6F21-4DD1-831F-03703A8B174F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +17,10 @@ Global
 		{40EC9108-9484-4CE2-A7ED-2AE784E054D0}.Debug|Win32.Build.0 = Debug|Win32
 		{40EC9108-9484-4CE2-A7ED-2AE784E054D0}.Release|Win32.ActiveCfg = Release|Win32
 		{40EC9108-9484-4CE2-A7ED-2AE784E054D0}.Release|Win32.Build.0 = Release|Win32
+		{4B84580B-6F21-4DD1-831F-03703A8B174F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4B84580B-6F21-4DD1-831F-03703A8B174F}.Debug|Win32.Build.0 = Debug|Win32
+		{4B84580B-6F21-4DD1-831F-03703A8B174F}.Release|Win32.ActiveCfg = Release|Win32
+		{4B84580B-6F21-4DD1-831F-03703A8B174F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
