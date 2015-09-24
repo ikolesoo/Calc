@@ -1,68 +1,16 @@
-#include <iostream>
-class Calc {
-	float result;
-	std::string error;
-	public:
-		Calc();
-		float Add(float a, float b);
-		float Sub(float a, float b);
-		float Mult(float a, float b);
-		float div(float a, float b);
-		void err();
-		virtual void print() const;
-		virtual ~Calc();
-		
-};
+#ifndef CALC_H
+#define CALC_H
 
-Calc::Calc()
-{
-	std::cout << "Calc created\n";
-}
+float Add(float a, float b);
 
-float Calc::Add(float a, float b)
-{
-	result = a + b;
-	return result;
-}
+float Sub(float a, float b);
 
-float Calc::Sub(float a, float b)
-{
-	result = a - b;
-	return result;
-}
+float Div(float a, float b);
 
-float Calc::div(float a, float b)
-{
-	if (b == 0)
-	{
-		std::cout << "Zero div!\n";
-		error = "error";
-	}
-	else
-	{
-		result = a / b;
-	}
-	return result;
-}
+float Mult(float a, float b);
 
-float Calc::Mult(float a, float b)
-{
-	result = a*b;
-	return result;
-}
+void Print();
 
-void Calc::print() const
-{
-	if (error != "error")
-		std::cout << "The resuld is " << result << "\n";
-	else (std::cout << "There was an error");
+void Err();
 
-}
-void Calc::err()
-{
-	error = "error";
-}
-Calc::~Calc()
-{
-	std::cout << "Bye";
-}
+#endif
