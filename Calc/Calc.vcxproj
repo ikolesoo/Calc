@@ -44,6 +44,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\Kolesov Ilya\Documents\Visual Studio 2013\Projects\Calc\Calc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -64,10 +65,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Calc.h" />
+    <ClInclude Include="include\Calc.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Calc.cpp" />
+    <ClCompile Include="APICalc.cpp" />
+    <ClCompile Include="source\Calc.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

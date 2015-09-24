@@ -15,12 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Calc.h">
+    <ClInclude Include="include\Calc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Calc.cpp">
+    <ClCompile Include="APICalc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Calc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
