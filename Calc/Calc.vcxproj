@@ -71,6 +71,7 @@
   <ItemGroup>
     <ClCompile Include="APICalc.cpp" />
     <ClCompile Include="source\Calc.cpp" />
+    <ClCompile Include="source\Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
