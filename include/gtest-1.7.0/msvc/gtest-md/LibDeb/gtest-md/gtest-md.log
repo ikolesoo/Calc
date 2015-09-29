@@ -1,0 +1,15 @@
+﻿Build started 23.09.2015 13:54:21.
+     1>Project "C:\Users\Kolesov Ilya\Desktop\gtest-1.7.0\msvc\gtest-md.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.. /I..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gtest-md/Debug\gtest-md\\" /Fd"gtest-md/Debug\gtest-md\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\src\gtest-all.cc"
+         gtest-all.cc
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\Users\Kolesov Ilya\Desktop\gtest-1.7.0\msvc\gtest-md/Debug\gtest-md.lib) does not match the Library's OutputFile property value (C:\Users\Kolesov Ilya\Desktop\gtest-1.7.0\msvc\gtest-md\Debug\gtestd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(gtest-md) does not match the Library's OutputFile property value (gtestd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"gtest-md/Debug\gtestd.lib" /NOLOGO "gtest-md/Debug\gtest-md\gtest-all.obj"
+         gtest-md.vcxproj -> C:\Users\Kolesov Ilya\Desktop\gtest-1.7.0\msvc\gtest-md/Debug\gtest-md.lib
+     1>Done Building Project "C:\Users\Kolesov Ilya\Desktop\gtest-1.7.0\msvc\gtest-md.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.35

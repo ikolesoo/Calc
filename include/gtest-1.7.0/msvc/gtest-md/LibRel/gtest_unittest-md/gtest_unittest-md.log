@@ -1,0 +1,17 @@
+﻿Build started 23.09.2015 13:57:37.
+     1>Project "C:\Users\Kolesov Ilya\Desktop\gtest-1.7.0\msvc\gtest_unittest-md.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.. /I..\include /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gtest-md/Release\gtest_unittest-md\\" /Fd"gtest-md/Release\gtest_unittest-md\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\test\gtest_unittest.cc
+         gtest_unittest.cc
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Users\Kolesov Ilya\Desktop\gtest-1.7.0\msvc\gtest-md/Release\gtest_unittest-md.exe) does not match the Linker's OutputFile property value (C:\Users\Kolesov Ilya\Desktop\gtest-1.7.0\msvc\gtest-md\Release\gtest_unittest.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(gtest_unittest-md) does not match the Linker's OutputFile property value (gtest_unittest). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"gtest-md/Release\gtest_unittest.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"gtest-md/Release\gtest_unittest-md.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"gtest-md/Release\gtest_unittest-md.lib" /MACHINE:X86 /SAFESEH "gtest-md/Release\gtest_unittest-md\gtest_unittest.obj"
+         "C:\Users\Kolesov Ilya\Desktop\gtest-1.7.0\msvc\gtest-md\Release\gtest.lib"
+         "C:\Users\Kolesov Ilya\Desktop\gtest-1.7.0\msvc\gtest-md\Release\gtest_main-md.lib"
+         gtest_unittest-md.vcxproj -> C:\Users\Kolesov Ilya\Desktop\gtest-1.7.0\msvc\gtest-md/Release\gtest_unittest-md.exe
+     1>Done Building Project "C:\Users\Kolesov Ilya\Desktop\gtest-1.7.0\msvc\gtest_unittest-md.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.74

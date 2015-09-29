@@ -1,0 +1,13 @@
+﻿Build started 23.09.2015 13:57:35.
+     1>Project "C:\Users\Kolesov Ilya\Desktop\gtest-1.7.0\msvc\gtest_main-md.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.. /I..\include /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gtest-md/Release\gtest_main-md\\" /Fd"gtest-md/Release\gtest_main-md\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\gtest_main.cc
+         gtest_main.cc
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"gtest-md/Release\gtest_main-md.lib" /NOLOGO "gtest-md/Release\gtest_main-md\gtest_main.obj"
+         gtest_main-md.vcxproj -> C:\Users\Kolesov Ilya\Desktop\gtest-1.7.0\msvc\gtest-md/Release\gtest_main-md.lib
+     1>Done Building Project "C:\Users\Kolesov Ilya\Desktop\gtest-1.7.0\msvc\gtest_main-md.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.83
