@@ -3,6 +3,8 @@
 #include "Calc.h"
 #include "stdafx.h"
 
+using namespace Calculator;
+
 int main()
 {
     float a, b;

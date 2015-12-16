@@ -1,2 +1,2 @@
-#include <gtest/gtest.h>
-#include <Calc.h>
+//#include <gtest/gtest.h>
+//#include <Calc.h>
